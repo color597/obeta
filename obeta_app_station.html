@@ -9,7 +9,7 @@
     <meta content="black" name="apple-mobile-web-app-status-bar-style">
     <meta content="telephone=no" name="format-detection">
     <meta content="email=no" name="format-detection">
-    <title>O Beta</title>
+    <title>O Beta - OPPO、OnePlus、realme 软件下载站</title>
     <link rel="icon" href="img/obeta_favicon.png">
 </head>
 <style>
@@ -24,14 +24,11 @@
     }
 
     .application_info {
-        display:contents;
+        display: contents;
         margin: 10px 0;
         display: grid;
-        grid-template-columns:1fr 1fr 1fr 1fr;
-        grid-template-rows:1fr 1fr 1fr 1fr; 
-        /* grid-row: 4; */
-        /* grid-auto-rows:minmax(100px,auto);
-        grid-auto-columns: minmax(100px,auto); */
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
     }
 
     .declare {
@@ -78,12 +75,12 @@
 <script src="js/jquery-3.6.0.min.js"></script>
 <script>
     $(function () {
-        var url = "obeta_app_list.json"/*json文件url，本地的就写本地的位置，如果是服务器的就写服务器的路径*/
+        var url = "obeta_app_list.json"
         var request = new XMLHttpRequest();
-        request.open("get", url);/*设置请求方法与路径*/
-        request.send(null);/*不发送数据到服务器*/
-        request.onload = function () {/*XHR对象获取到返回信息后执行*/
-            if (request.status == 200) {/*返回状态为200，即为数据获取成功*/
+        request.open("get", url);
+        request.send(null);
+        request.onload = function () {
+            if (request.status == 200) {
                 var json = JSON.parse(request.responseText);
                 var a = "";
                 json.obeta_app_list.map(obeta_app_list => {
@@ -103,7 +100,9 @@
         <img src="img/obeta_header.png" width="90%">
     </div>
     <dl class="declare">
-        <dt><h3>声明</h3></dt>
+        <dt>
+            <h3>声明</h3>
+        </dt>
         <dd>「网页信息」
             ·本网页的主要内容来源于欧贝塔公众号，网页内容已经授权制作
             ·本网页采用的App图标来自<a href="https://www.coloros.com">ColorOS</a>，并经后期处理
