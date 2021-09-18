@@ -406,6 +406,12 @@
             "target_url": "https://chain.lanzoui.com/b00nl2o1c"
         }, 
         {
+            "app_name": "语音转文字",
+            "img_name": "ColorAccessibilityAssistant",
+            "target_url": "https://chain.lanzoui.com/b00owpvkd"
+
+        },
+        {
             "app_name": "远程守护",
             "img_name": "FamilyGuard",
             "target_url": "https://chain.lanzoui.com/b00no904b"
