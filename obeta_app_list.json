@@ -61,6 +61,11 @@
             "target_url": "https://chain.lanzoui.com/b00ouvofa"
         }, 
         {
+            "app_name": "常规检测",
+            "img_name": "HealthCheck",
+            "target_url": "https://chain.lanzoui.com/b00p0fjaf"
+        }, 
+        {
             "app_name": "超级多屏",
             "img_name": "OneScreen",
             "target_url": "https://chain.lanzoui.com/b00olmxxe"
@@ -79,6 +84,11 @@
             "app_name": "咚咚传情",
             "img_name": "DongDong",
             "target_url": "https://chain.lanzoui.com/b00o63qni"
+        }, 
+        {
+            "app_name": "儿童空间",
+            "img_name": "ChildrenSpace",
+            "target_url": "https://chain.lanzoui.com/b00p0fjej"
         }, 
         {
             "app_name": "翻译服务",
@@ -195,6 +205,11 @@
             "img_name": "FinShellWallet",
             "target_url": "https://chain.lanzoui.com/b00nl2o6h"
         }, 
+        {
+            "app_name": "情景模式",
+            "img_name": "DefAppIcon",
+            "target_url": "https://chain.lanzoui.com/b00p0fj5a"
+        },
         {
             "app_name": "全局搜索",
             "img_name": "GlobalSearch",
